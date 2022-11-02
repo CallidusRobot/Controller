@@ -1,0 +1,27 @@
+[submodule "Libraries/Adafruit-GFX-Library"]
+	path = Libraries/Adafruit-GFX-Library
+	url = https://github.com/adafruit/Adafruit-GFX-Library
+[submodule "Libraries/Adafruit_NeoPixel"]
+	path = Libraries/Adafruit_NeoPixel
+	url = https://github.com/adafruit/Adafruit_NeoPixel
+[submodule "Libraries/I2C_EEPROM"]
+	path = Libraries/I2C_EEPROM
+	url = https://github.com/RobTillaart/I2C_EEPROM
+[submodule "Libraries/VL53L3CX"]
+	path = Libraries/VL53L3CX
+	url = https://github.com/stm32duino/VL53L3CX
+[submodule "Libraries/Adafruit_LIS3MDL"]
+	path = Libraries/Adafruit_LIS3MDL
+	url = https://github.com/adafruit/Adafruit_LIS3MDL
+[submodule "Libraries/LSM6DSOX"]
+	path = Libraries/LSM6DSOX
+	url = https://github.com/stm32duino/LSM6DSOX
+[submodule "Libraries/Adafruit_IS31FL3741"]
+	path = Libraries/Adafruit_IS31FL3741
+	url = https://github.com/adafruit/Adafruit_IS31FL3741
+[submodule "Libraries/Adafruit_BusIO"]
+	path = Libraries/Adafruit_BusIO
+	url = https://github.com/adafruit/Adafruit_BusIO
+[submodule "Libraries/Adafruit_Sensor"]
+	path = Libraries/Adafruit_Sensor
+	url = https://github.com/adafruit/Adafruit_Sensor
