@@ -24,10 +24,10 @@ enum {
   PIN_WIFI_RX = 9,
   // RFID SPI clock
   PIN_RFID_CK = 10,
-  // RFID SPI data in, internal pulldown
-  PIN_RFID_RX = 11,
   // RFID SPI data out
-  PIN_RFID_TX = 12,
+  PIN_RFID_TX = 11,
+    // RFID SPI data in, internal pulldown
+  PIN_RFID_RX = 12,
   // RFID SPI chip select, active-low
   PIN_RFID_CD = 13,
   // WIFI PMC over-current/under-voltage fault, active-low, internal pullup
