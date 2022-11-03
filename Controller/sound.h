@@ -2,6 +2,8 @@
 
 class CallidusSound {
   public:
+  static void setup();
+  static void update();
   
   private:
   CallidusSound() {}
