@@ -1,3 +1,6 @@
+#ifndef SOUND_H
+#define SOUND_H
+
 #include <Arduino.h>
 
 class CallidusSound {
@@ -8,3 +11,5 @@ class CallidusSound {
   private:
   CallidusSound() {}
 };
+
+#endif

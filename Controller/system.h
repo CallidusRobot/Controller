@@ -1,3 +1,6 @@
+#ifndef SYSTEM_H
+#define SYSTEM_H
+
 #include <Arduino.h>
 
 class CallidusSystem {
@@ -8,3 +11,5 @@ class CallidusSystem {
   private:
   CallidusSystem() {}
 };
+
+#endif

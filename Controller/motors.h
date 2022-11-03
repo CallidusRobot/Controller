@@ -1,3 +1,6 @@
+#ifndef MOTORS_H
+#define MOTORS_H
+
 #include <Arduino.h>
 
 class CallidusMotors {
@@ -8,3 +11,5 @@ class CallidusMotors {
   private:
   CallidusMotors() {}
 };
+
+#endif

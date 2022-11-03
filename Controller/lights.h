@@ -1,3 +1,6 @@
+#ifndef LIGHTS_H
+#define LIGHTS_H
+
 #include <Arduino.h>
 
 class CallidusLights {
@@ -8,3 +11,5 @@ class CallidusLights {
   private:
   CallidusLights() {}
 };
+
+#endif

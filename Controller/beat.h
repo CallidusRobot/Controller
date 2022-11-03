@@ -1,3 +1,6 @@
+#ifndef BEAT_H
+#define BEAT_H
+
 #include <Arduino.h>
 
 class CallidusBeat {
@@ -8,3 +11,5 @@ class CallidusBeat {
   private:
   CallidusBeat() {}
 };
+
+#endif

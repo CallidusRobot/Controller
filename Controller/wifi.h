@@ -1,3 +1,6 @@
+#ifndef WIFI_H
+#define WIFI_H
+
 #include <Arduino.h>
 
 class CallidusWifi {
@@ -8,3 +11,5 @@ class CallidusWifi {
   private:
   CallidusWifi() {}
 };
+
+#endif
