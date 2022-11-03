@@ -1,5 +1,7 @@
-#ifndef PINS_H
-#define PINS_H
+#ifndef HARDWARE_H
+#define HARDWARE_H
+
+#include <Arduino.h>
 
 enum {
   // Motor channel B PWM
@@ -62,6 +64,14 @@ enum {
   PIN_SYS_VBAT = 28,
   // VSYS via ADC, regulated 5V divided by 3
   PIN_SYS_VSYS = 29
+};
+
+class CallidusHardware {
+  public:
+  static void setup();
+  
+  private:
+  CallidusHardware() {}
 };
 
 #endif

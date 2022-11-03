@@ -1,5 +1,5 @@
-#include "pins.h"
 #include "beat.h"
+#include "hardware.h"
 #include "lights.h"
 #include "motors.h"
 #include "power.h"
@@ -14,6 +14,7 @@ void setup() {
   Serial.begin();
   while (!Serial);
 
+  CallidusHardware::setup();
   CallidusPower::setup();
   CallidusSystem::setup();
   CallidusWifi::setup();
