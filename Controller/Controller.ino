@@ -1,4 +1,5 @@
 #include "pins.h"
+#include "beat.h"
 #include "lights.h"
 #include "motors.h"
 #include "power.h"
@@ -20,6 +21,7 @@ void setup() {
   CallidusLights::setup();
   CallidusSound::setup();
   CallidusMotors::setup();
+  CallidusBeat::setup();
 }
 
 void setup1() {
@@ -32,11 +34,13 @@ void loop() {
   CallidusWifi::update();
   CallidusLights::update();
   CallidusSound::update();
+  CallidusBeat::update(true);
 }
 
 void loop1() {
   CallidusSensors::update();
   CallidusMotors::update();
+  CallidusBeat::update(false);
   
   // TODO: Synchronize with loop
 }
