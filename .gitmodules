@@ -25,3 +25,6 @@
 [submodule "Libraries/Adafruit_Sensor"]
 	path = Libraries/Adafruit_Sensor
 	url = https://github.com/adafruit/Adafruit_Sensor
+[submodule "Libraries/DFRobotDFPlayerMini"]
+	path = Libraries/DFRobotDFPlayerMini
+	url = https://github.com/DFRobot/DFRobotDFPlayerMini
