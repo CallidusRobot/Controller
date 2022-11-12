@@ -2,6 +2,8 @@
 #define HARDWARE_H
 
 #include <Arduino.h>
+#include <Wire.h>
+#include <SPI.h>
 
 enum {
   // Motor channel B PWM
@@ -65,6 +67,13 @@ enum {
   // VSYS via ADC, regulated 5V divided by 3
   PIN_SYS_VSYS = 29
 };
+
+#define SOUND_PORT Serial1
+#define SOUND_SPEED 9600
+#define WIFI_PORT Serial2
+#define WIFI_SPEED 115200
+#define RFID_PORT SPI1
+#define I2C_PORT Wire
 
 class CallidusHardware {
   public:

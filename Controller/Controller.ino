@@ -1,6 +1,7 @@
 #include "beat.h"
 #include "hardware.h"
 #include "lights.h"
+#include "log.h"
 #include "motors.h"
 #include "power.h"
 #include "sensors.h"
@@ -11,8 +12,10 @@
 // Compile with: Debug Port Serial, No exceptions
 
 void setup() {
-  Serial.begin();
-  while (!Serial);
+  Log::setup();
+  Log::info(F("Callidus Robot System Controller"));
+  Log::info(F("Version 0.1 (2022/11/11)"));
+  Log::info(F("--------------------------------"));
 
   CallidusHardware::setup();
   CallidusPower::setup();

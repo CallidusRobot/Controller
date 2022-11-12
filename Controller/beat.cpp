@@ -1,7 +1,14 @@
 #include "beat.h"
 
-void CallidusBeat::setup() {
+#include "hardware.h"
+#include "log.h"
 
+void CallidusBeat::setup() {
+  Log::info(F("Initializing heartbeat..."));
+
+  // Internal heartbeat LED, active-high
+  digitalWrite(PIN_SYS_HEARTBEAT, LOW);
+  pinMode(PIN_SYS_HEARTBEAT, OUTPUT);
 }
 
 void CallidusBeat::update(bool primary) {
