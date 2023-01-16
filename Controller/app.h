@@ -1,16 +1,16 @@
-#ifndef BEAT_H
-#define BEAT_H
+#ifndef APP_H
+#define APP_H
 
 #include <Arduino.h>
 
-class CallidusBeat {
+class CallidusApp {
   public:
   static void setup();
   static void update();
   
   private:
-  CallidusBeat() {}
-  static bool state;
+  CallidusApp() {}
+  static long lastAnnounce;
 };
 
 #endif

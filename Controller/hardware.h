@@ -5,6 +5,9 @@
 #include <Wire.h>
 #include <SPI.h>
 
+extern const int ANALOG_WRITE_MIN;
+extern const int ANALOG_WRITE_MAX;
+
 enum {
   // Motor channel B PWM
   PIN_MOTOR_PWMB = 0,

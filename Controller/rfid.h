@@ -1,16 +1,15 @@
-#ifndef BEAT_H
-#define BEAT_H
+#ifndef RFID_H
+#define RFID_H
 
 #include <Arduino.h>
 
-class CallidusBeat {
+class CallidusRfid {
   public:
   static void setup();
   static void update();
   
   private:
-  CallidusBeat() {}
-  static bool state;
+  CallidusRfid() {}
 };
 
 #endif

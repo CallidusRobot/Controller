@@ -7,6 +7,7 @@ class CallidusLights {
   public:
   static void setup();
   static void update();
+  static void setPattern(int pattern);
   
   private:
   CallidusLights() {}

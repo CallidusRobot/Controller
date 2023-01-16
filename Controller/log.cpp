@@ -2,6 +2,8 @@
 
 enum LogLevel Log::level = LOG_LEVEL_INFO;
 
+// TODO: mutex
+
 void Log::setup() {
   LOG_PORT.begin();
 }

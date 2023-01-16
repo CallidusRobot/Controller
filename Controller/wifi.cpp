@@ -14,8 +14,12 @@ void CallidusWifi::setup() {
   // WIFI PMC over-current/under-voltage fault, active-low, internal pullup
   pinMode(PIN_WIFI_FAULT, INPUT_PULLUP);
   // WIFI PMC output enable, active-high
-  digitalWrite(PIN_WIFI_ENABLE, LOW);
   pinMode(PIN_WIFI_ENABLE, OUTPUT);
+  // Turn on WIFI
+  digitalWrite(PIN_WIFI_ENABLE, HIGH); // make low again
+
+  // And open the port
+  WIFI_PORT.begin(WIFI_SPEED);
 }
 
 void CallidusWifi::update() {
